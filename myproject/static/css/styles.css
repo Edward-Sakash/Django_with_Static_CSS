@@ -1,0 +1,56 @@
+/* Reset some default browser styles */
+body, h1, h2, p, a {
+    margin: 0;
+    padding: 0;
+}
+
+/* Apply a background color and set text color */
+body {
+    background-color: #f0f0f0;
+    color: #333;
+    font-family: Arial, sans-serif;
+}
+
+/* Style the header */
+header {
+    background-color: #007BFF;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+/* Style headings */
+h1 {
+    font-size: 24px;
+    margin: 20px 0;
+}
+
+h2 {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+/* Style paragraphs */
+p {
+    margin: 10px 0;
+}
+
+/* Style links */
+a {
+    color: #007BFF;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Style an unordered list */
+ul {
+    list-style: none;
+}
+
+/* Style list items */
+li {
+    margin: 5px 0;
+}
